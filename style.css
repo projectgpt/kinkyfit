@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+header {
+    background: #111;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    background: url('watermark.jpg') no-repeat center center / cover;
+    padding: 5em 1em;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+}
+.info-block, .agent-block, .blog-preview {
+    padding: 2em;
+}
+.blog-card {
+    background: #f9f9f9;
+    padding: 1em;
+    margin: 1em 0;
+}
+footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 1em;
+}
